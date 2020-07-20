@@ -1,0 +1,13 @@
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\bin\Debug\netstandard2.0\MobileApp.deps.json
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\bin\Debug\netstandard2.0\MobileApp.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\bin\Debug\netstandard2.0\ref\MobileApp.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\bin\Debug\netstandard2.0\MobileApp.pdb
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.csprojAssemblyReference.cache
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.AssemblyInfoInputs.cache
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.AssemblyInfo.cs
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\XamlC.stamp
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\ref\MobileApp.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.pdb
