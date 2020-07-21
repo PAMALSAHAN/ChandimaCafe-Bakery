@@ -26,7 +26,7 @@ namespace MobileApp.service
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             //ita passe karanna tinne end point ekata yawanna
             //methanadi use karana endpoint eka wenna one newtonsoft ekka wada karana ka thama.
-            var response = await httpClient.PostAsync("http://localhost:49887/api/Accounts/Register", content);
+            var response = await httpClient.PostAsync(AppSetting.ApiURL+"api/Accounts/Register", content);
             if (!response.IsSuccessStatusCode) return false;
             return true;
 
@@ -42,7 +42,7 @@ namespace MobileApp.service
             var httpClient = new HttpClient();
             var json = JsonConvert.SerializeObject(login);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
-            var response = await httpClient.PostAsync("http://localhost:49887/api/Accounts/Login", content);
+            var response = await httpClient.PostAsync(AppSetting.ApiURL+"api/Accounts/Login", content);
             if (!response.IsSuccessStatusCode) return false;
 
             //ita passe access token eka ganna widiha 

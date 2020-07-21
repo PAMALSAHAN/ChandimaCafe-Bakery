@@ -28,3 +28,13 @@ ita passe karanna tinne service file ekak add karana eka.
 	ita passe kraanne hada gaththa object ka json ekata daganna eka.ita passe hadagathhta jason eka ita passe eka 
 	http server ekata yawanna one widihata hadaganna one.ita passe eka postasync eken yawanna one server ekata.
 		success nam return karanawa true or false kiyala.
+-----------------------------------------------------------------------------
+	login ekedi access token ganne menna mehemai.
+			var jsonResult =await response.Content.ReadAsStringAsync();
+            var result = JsonConvert.DeserializeObject<Token>(jsonResult);
+            Preferences.Set("accessToken", result.access_token);
+            Preferences.Set("userId", result.user_Id);
+            Preferences.Set("userName", result.user_name);
+--------------------------------------------------------------------------------
+	api url eka wenama cs class ekaka property ekak widihata use karana eka thama karanne.ehema karama 
+	ulr eka edit karanna prashnayak awoth hamathanama edit karanna wenne naha.
