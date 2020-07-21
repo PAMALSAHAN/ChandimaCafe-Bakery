@@ -67,12 +67,23 @@ namespace MobileApp.service
             return JsonConvert.DeserializeObject<List<Category>>(response);
         }
 
+        //product id eka dunnahama product eke details ganna hadala tinne
         public static async Task<Products> GetProductById(int productId)
         {
             var httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
             var response = await httpClient.GetStringAsync(AppSetting.ApiURL + "api/Products/" + productId);
             return JsonConvert.DeserializeObject<Products>(response);
+        }
+
+        public async static Task<List<ProductByCategory>> GetProductsByCategory(int categoryId)
+        {
+            var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
+            var response=await httpClient.GetStringAsync(AppSetting.ApiURL + "api/Products/ProductsByCategory/" + categoryId);
+            return JsonConvert.DeserializeObject<List<ProductByCategory>>(response);
+
+
         }
 
 
