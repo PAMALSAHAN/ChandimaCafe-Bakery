@@ -21,3 +21,10 @@ model class eka hadannna one accounts walata
 		login register json file add karanakota login eke token file ekek out put karanawane ekata class 
 	ekak hadanna one token kiyala.
 		delete http request walata model liyanne naha mokada ekata class one wenne nathi hinda.
+-----------------------------------------------------------------
+ita passe karanna tinne service file ekak add karana eka.
+	mekedi nuget package ekak install karanna one serialized and deserialized karanna one hinda 
+		registeruser function ekak gahanawa.paramethers thunak aran register eken object ekak hadagannawa
+	ita passe kraanne hada gaththa object ka json ekata daganna eka.ita passe hadagathhta jason eka ita passe eka 
+	http server ekata yawanna one widihata hadaganna one.ita passe eka postasync eken yawanna one server ekata.
+		success nam return karanawa true or false kiyala.
