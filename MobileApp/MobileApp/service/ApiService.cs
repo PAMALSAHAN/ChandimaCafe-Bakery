@@ -66,5 +66,15 @@ namespace MobileApp.service
             //object ekata convert karanna one. list of category class
             return JsonConvert.DeserializeObject<List<Category>>(response);
         }
+
+        public static async Task<Products> GetProductById(int productId)
+        {
+            var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
+            var response = await httpClient.GetStringAsync(AppSetting.ApiURL + "api/Products/" + productId);
+            return JsonConvert.DeserializeObject<Products>(response);
+        }
+
+
     }
 }
