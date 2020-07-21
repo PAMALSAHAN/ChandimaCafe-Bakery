@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
@@ -11,7 +12,7 @@ namespace MobileApp.service
 {
     class ApiService
     {
-        public async Task<bool> RegisterUser(string name, string email, string password)
+        public static async Task<bool> RegisterUser(string name, string email, string password)
         {
             var User = new Register()
             {
@@ -32,7 +33,7 @@ namespace MobileApp.service
 
         }
 
-        public async Task<bool> Login(string email, string password)
+        public static async Task<bool> Login(string email, string password)
         {
             var login = new Login()
             {
@@ -53,6 +54,17 @@ namespace MobileApp.service
             Preferences.Set("userName", result.user_name);
             return true;
 
+        }
+
+        public static async Task<List<Category>>  GetCategories()
+        {
+            var httpClient = new HttpClient();
+            //authorizede can only access
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
+            //get eka hinda 
+            var response=await httpClient.GetStringAsync(AppSetting.ApiURL + "api/Categories");
+            //object ekata convert karanna one. list of category class
+            return JsonConvert.DeserializeObject<List<Category>>(response);
         }
     }
 }
