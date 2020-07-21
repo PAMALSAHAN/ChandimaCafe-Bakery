@@ -94,5 +94,22 @@ namespace MobileApp.service
 
         }
 
+       // mekta one eka addtoCart eke tinawa.
+        public static async Task<bool> AddItemsInCart(AddToCart addToCart)
+        {
+            var httpClient = new HttpClient();
+            //convert object to json 
+            var json = JsonConvert.SerializeObject(addToCart);
+            //http server client communication ekata adala wena widihata content eka hada ganna eka karanne.
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
+            //ita passe karanna tinne end point ekata yawanna
+            //methanadi use karana endpoint eka wenna one newtonsoft ekka wada karana ka thama.
+            var response = await httpClient.PostAsync(AppSetting.ApiURL + "api/ShoppingCartItems", content);
+            if (!response.IsSuccessStatusCode) return false;
+            return true;
+        }
+
+
     }
 }
