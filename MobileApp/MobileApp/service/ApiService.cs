@@ -110,6 +110,16 @@ namespace MobileApp.service
             return true;
         }
 
+        //shopping cart user id eka use karala funct ekak gahanna tinn. get total eka ganna.
+        public async static Task<CartSubTotal> GetSubTotal(int userId)
+        {
+            var httpClient =new HttpClient();
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
+            var response = await httpClient.GetStringAsync(AppSetting.ApiURL + "api/ShoppingCartItems/SubTotal/" + userId);
+            return JsonConvert.DeserializeObject<CartSubTotal>(response);
+
+        }
+
 
     }
 }
