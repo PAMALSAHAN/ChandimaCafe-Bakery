@@ -173,6 +173,15 @@ namespace MobileApp.service
             return JsonConvert.DeserializeObject<List<OrderByUser>>(response);
         }
 
+        //order details gannnawa order id eka use karala.
+        public static async Task<List<Order>> GetOrderDetails(int orderId)
+        {
+            var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
+            var response = await httpClient.GetStringAsync(AppSetting.ApiURL + "api/Orders/OrderDetails/" + orderId);
+            return JsonConvert.DeserializeObject<List<Order>>(response);
+        }
+
 
     }
 }
