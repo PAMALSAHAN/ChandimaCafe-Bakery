@@ -147,5 +147,32 @@ namespace MobileApp.service
             return true;
         }
 
+        public async static Task<OrderResponse> placeOrder(Order order)
+        {
+            var httpClient = new HttpClient();
+            //convert object to json 
+            var json = JsonConvert.SerializeObject(order);
+            //http server client communication ekata adala wena widihata content eka hada ganna eka karanne.
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
+            //ita passe karanna tinne end point ekata yawanna
+            //methanadi use karana endpoint eka wenna one newtonsoft ekka wada karana ka thama.
+            var response = await httpClient.PostAsync(AppSetting.ApiURL + "api/Orders", content);
+
+            //token eka ganna 
+            var jsonResult = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<OrderResponse>(jsonResult);
+
+        }
+
+        public static async Task<List<OrderByUser>> GetOrderByUser(int userId)
+        {
+            var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
+            var response = await httpClient.GetStringAsync(AppSetting.ApiURL + "api/Orders/OrdersByUser/" + userId);
+            return JsonConvert.DeserializeObject<List<OrderByUser>>(response);
+        }
+
+
     }
 }

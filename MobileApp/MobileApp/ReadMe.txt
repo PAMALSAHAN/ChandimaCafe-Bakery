@@ -49,3 +49,36 @@ ita passe karanna tinne service file ekak add karana eka.
             if (!response.IsSuccessStatusCode) return false;
             return true;
         }
+--------------------------------------------------
+order class eka hadana kota
+	eka hadanakota body ekata wenama class ekai response ekata wenama class ekai hadanna one.
+------------------------------------------------------------------
+post request hama ekakma yanne hariyata ekama widihak vidihata. parameter ekak wenna one class eke object ekak 
+ethakota lesi 
+			
+			post request
+				public static async Task<bool> AddItemsInCart(AddToCart addToCart)
+        {
+            var httpClient = new HttpClient();
+            //convert object to json 
+            var json = JsonConvert.SerializeObject(addToCart);
+            //http server client communication ekata adala wena widihata content eka hada ganna eka karanne.
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
+            //ita passe karanna tinne end point ekata yawanna
+            //methanadi use karana endpoint eka wenna one newtonsoft ekka wada karana ka thama.
+            var response = await httpClient.PostAsync(AppSetting.ApiURL + "api/ShoppingCartItems", content);
+            if (!response.IsSuccessStatusCode) return false;
+            return true;
+        }
+
+			getrequest
+				 public async static Task<CartSubTotal> GetSubTotal(int userId)
+        {
+            var httpClient =new HttpClient();
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
+            var response = await httpClient.GetStringAsync(AppSetting.ApiURL + "api/ShoppingCartItems/SubTotal/" + userId);
+            return JsonConvert.DeserializeObject<CartSubTotal>(response);
+
+        }
+
