@@ -56,3 +56,16 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\obj\iPhone
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\obj\iPhoneSimulator\Debug\MobileApp.iOS.csproj.CopyComplete
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\obj\iPhoneSimulator\Debug\MobileApp.iOS.exe
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\obj\iPhoneSimulator\Debug\MobileApp.iOS.pdb
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Configuration.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Configuration.Binder.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Logging.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Options.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Primitives.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\System.Buffers.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\System.Memory.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\System.Runtime.CompilerServices.Unsafe.dll

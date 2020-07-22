@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MobileApp.pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace MobileApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new SignUp();
         }
 
         protected override void OnStart()

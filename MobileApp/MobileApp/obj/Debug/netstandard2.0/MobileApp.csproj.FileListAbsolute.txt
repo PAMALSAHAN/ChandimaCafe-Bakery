@@ -10,3 +10,5 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\nets
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.dll
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\ref\MobileApp.dll
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.pdb
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\SignUp.xaml.g.cs
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\XamlC.stamp
