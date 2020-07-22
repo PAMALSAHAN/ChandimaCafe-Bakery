@@ -138,5 +138,14 @@ namespace MobileApp.service
 
         }
 
+        public async  static Task<bool> ClearShoppingCart(int userId)
+        {
+            var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
+            var response = await httpClient.DeleteAsync(AppSetting.ApiURL + "api/ShoppingCartItems/" + userId);
+            if (!response.IsSuccessStatusCode) return false;
+            return true;
+        }
+
     }
 }

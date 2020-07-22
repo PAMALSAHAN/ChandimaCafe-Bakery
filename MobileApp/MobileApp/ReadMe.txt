@@ -38,3 +38,14 @@ ita passe karanna tinne service file ekak add karana eka.
 --------------------------------------------------------------------------------
 	api url eka wenama cs class ekaka property ekak widihata use karana eka thama karanne.ehema karama 
 	ulr eka edit karanna prashnayak awoth hamathanama edit karanna wenne naha.
+	    hamawelema function liyana kota postman eke uda idan patan ganna tinne.authorize eka hoyana eka.ita passe 
+		httprequest eka. eka getasync deleteasync wage wenna puluwan.
+
+		 public async  static Task<bool> ClearShoppingCart(int userId)
+        {
+            var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
+            var response = await httpClient.DeleteAsync(AppSetting.ApiURL + "api/ShoppingCartItems/" + userId);
+            if (!response.IsSuccessStatusCode) return false;
+            return true;
+        }
