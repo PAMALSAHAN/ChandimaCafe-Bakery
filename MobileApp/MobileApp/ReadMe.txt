@@ -81,4 +81,11 @@ ethakota lesi
             return JsonConvert.DeserializeObject<CartSubTotal>(response);
 
         }
+---------------------------------------------------------------------------------
+srollveiw kiyanne page eka scroll wenna one nam use  karana ekak.eka nathiwa use karanna baha.
+-------------------------------------------------------------------------------------------------
+	login page eka create karala sign up eka page eken lagin page ekata navigate wenna ona ne eka hinda 
+	karanna tinne meka navigation page ekak widihata hadaganna eka.ekta app.xml eka main page eka edit karanna one.
+		 <Image.GestureRecognizers> meken karanne  image karana eka tap karann one tap gannna one xaml ekak.
+
 

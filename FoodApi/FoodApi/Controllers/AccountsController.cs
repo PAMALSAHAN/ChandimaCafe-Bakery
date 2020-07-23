@@ -61,7 +61,7 @@ namespace FoodApi.Controllers
                 new Claim(JwtRegisteredClaimNames.Email, user.Email),
                 new Claim(ClaimTypes.Name, user.Email),
                 new Claim(ClaimTypes.Role, userEmail.Role)
-            };
+            }; 
 
             var token = _auth.GenerateAccessToken(claims);
             return new ObjectResult(new

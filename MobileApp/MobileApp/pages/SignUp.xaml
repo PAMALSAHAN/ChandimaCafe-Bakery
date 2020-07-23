@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="MobileApp.pages.SignUp"
              BackgroundColor="#F7F5F4"
+             Title="signUp"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <ScrollView>
@@ -30,7 +31,7 @@
                                PlaceholderColor="#80574D"
                                TextColor="#80574D"
                                x:Name="EntName"
-                               Keyboard="Text" />
+                               Keyboard="Text" /> 
                         <Entry Placeholder="Email"
                                PlaceholderColor="#80574D"
                                TextColor="#80574D"
@@ -54,7 +55,8 @@
                                TextColor="#80574D"
                                Text="By creating an account you agree to our Terms of Service and Privacy Policy" />
                     </StackLayout>
-                </Frame>
+                </Frame >
+           
                 <Button Text="CONTINUE"
                         TextColor="White"
                         BackgroundColor="#CE0B06"
@@ -67,6 +69,7 @@
                         BackgroundColor="#CE0B06"
                         TextColor="White"
                         x:Name="BtnLogin"
+                        Clicked="BtnLogin_Clicked"
                         />
             </StackLayout>
         </ScrollView>
