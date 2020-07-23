@@ -87,5 +87,19 @@ srollveiw kiyanne page eka scroll wenna one nam use  karana ekak.eka nathiwa use
 	login page eka create karala sign up eka page eken lagin page ekata navigate wenna ona ne eka hinda 
 	karanna tinne meka navigation page ekak widihata hadaganna eka.ekta app.xml eka main page eka edit karanna one.
 		 <Image.GestureRecognizers> meken karanne  image karana eka tap karann one tap gannna one xaml ekak.
-
+-----------------------------------------------------------------------
+	eka parak login wenna hadanna one nam karanna tinne token eka allagena eka 
+		use karala page eka navigate wenna hadana eka.
+			 var token=Preferences.Get("accessToken", string.Empty);
+            if (string.IsNullOrEmpty(token))
+            {
+                MainPage = new NavigationPage(new SignUp());
+            }
+            else
+            {
+                MainPage = new NavigationPage(new Home());
+            }
+	eka parak log unama e token eka mobile eka tiyaganna hinda log una kena hadunaganna puluwan ethakota 
+	hama welema log wewi inna one naha.
+		
 
