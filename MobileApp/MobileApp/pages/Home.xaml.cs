@@ -16,5 +16,18 @@ namespace MobileApp.pages
         {
             InitializeComponent();
         }
+
+        private async void ImgMenu_Tapped(object sender, EventArgs e)
+        {
+            GridOverlay.IsVisible = true;
+            await SlMenu.TranslateTo(0, 0, 800, Easing.Linear);
+        }
+
+        private async void TapCloseMenu_Tapped(object sender, EventArgs e)
+        {
+            await SlMenu.TranslateTo(-2, 0, 800, Easing.Linear);
+            GridOverlay.IsVisible = false;
+
+        }
     }
 }

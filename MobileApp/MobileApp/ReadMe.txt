@@ -101,5 +101,20 @@ srollveiw kiyanne page eka scroll wenna one nam use  karana ekak.eka nathiwa use
             }
 	eka parak log unama e token eka mobile eka tiyaganna hinda log una kena hadunaganna puluwan ethakota 
 	hama welema log wewi inna one naha.
-		
-
+-----------------------------------------------------------------------------------------------------------------
+home page eka 
+	meke grid ekak hadala tinwa eka hadala tinne 150 heigth eka parts 4 kata bedala. eka bedala tina widiha balanna whole 
+	screen ekama neme bedala tinne. 
+		mulinma hadala tinne banner image ka eke aspect eka fill denna one naththam kotasak thma enne.
+			row span karala tinne ehema karamhama 4 tama yanawa.column span karama column 3 tama yanawa.
+		palleha tinawanam menu eka init karala.ita udin kfc image eka tinawanam udama layer eke tinne pahalama eka.dekama eka 
+		layer eke neme tinne.hama welema pahala tina eka thma udama layer eke tinne.
+	 Forms.SetFlags("CollectionView_Experimental");
+		meka use karanne collection view eka experimental kiyala dena eka.
+------------------------------------------------------------------
+	collectionview eke note eka balanna.
+----------------------------------------------------------------------------
+	side bar
+		mekedi menu icon eka click karahama side bar eka enna one ita passe eliya click krahama 
+		sidebar eka ain wenna one.mekata dala tinne view box ekak hinda karanna tiyenne tapp ekata function ekak liyana 
+		eka witharai.
