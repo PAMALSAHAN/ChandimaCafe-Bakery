@@ -118,3 +118,16 @@ home page eka
 		mekedi menu icon eka click karahama side bar eka enna one ita passe eliya click krahama 
 		sidebar eka ain wenna one.mekata dala tinne view box ekak hinda karanna tiyenne tapp ekata function ekak liyana 
 		eka witharai.
+---------------------------------------------------------------------
+	popular products ganna tinne.
+		ekata mulinma karanne home eke init eke functon ekak liyanawa eken api eke endpoint ekata call karala eke data 
+		tika obsevarable collection ekata dagannawa.
+			mekedi observerable collection ekakma ganna hethuwa thmai list ekak gaththa kiyala list eka trigger una kiyla 
+			ui eka danne naha.eka hinda ganne observarable ekak.
+			  observerable list ekata data gathhahama karanna tinne ui ekaka dan connct karana eka.ekata karanna tinne
+		ita passe tinne collctionview eke item source ekata 
+			ita passe karanne data binding karana eka.eken each cell(not use )
+				data dennna puluwan.
+			data template ekata danne.mekedi image url eka ganna one source eke idan eka hinda nikan imageURL deela wadak wenne 
+			naha.eka hinda karanna tinne apiurl ekath ekka denna one.
+				eka hinda popular product eka full image url ekak danawa.

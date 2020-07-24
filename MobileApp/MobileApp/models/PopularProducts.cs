@@ -1,4 +1,5 @@
 ﻿
+using MobileApp.service;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,5 +12,7 @@ namespace MobileApp.models
         public string name { get; set; }
         public float price { get; set; }
         public string imageUrl { get; set; }
+
+        public string fullImageUrl => AppSetting.ApiURL + imageUrl;
     }
 }
