@@ -134,3 +134,8 @@ home page eka
 			me widihata get category eka hadanawa.
 ---------------------------------------------------------------------------------------------
 	user name eka ganna one unama karanne preference(username) eken ganna eka.mokada service ekedi eka store karaganna hinda.
+---------------------------------------------------
+	get cart number 
+		home eke ctor eka eka parai call wenne.eka hinda cart number eka ganna one nam karanna tinne 
+		onappearing eka ganna eka.eka home ekata ena hama welekama run wenawa.ethakota updates wena ewwa okkama wage liyanna one 
+		eke.

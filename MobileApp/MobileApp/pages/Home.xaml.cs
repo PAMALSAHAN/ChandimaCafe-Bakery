@@ -60,5 +60,11 @@ namespace MobileApp.pages
             GridOverlay.IsVisible = false;
 
         }
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            var items=await ApiService.GetTotalCardItems(Preferences.Get("userId", 0));
+            LblTotalItems.Text = items.totalItems.ToString();
+        }
     }
 }

@@ -88,7 +88,7 @@
                                    VerticalOptions="StartAndExpand"
                                    HorizontalOptions="Start"/>
                             <Label TextColor="#B00905"
-                                   Text="{Binding price ,StringFormat='Rs {0}00' }"
+                                   Text="{Binding price ,StringFormat='Rs {0}' }"
                                    Margin="20,0"/>
                         </StackLayout>
                     </DataTemplate>
@@ -159,7 +159,7 @@
                                Grid.RowSpan="2"
                                BackgroundColor="#CE0B06">
                             <Label x:Name="LblTotalItems"
-                                   Text="5"
+                                   
                                    VerticalTextAlignment="Center"
                                    HorizontalTextAlignment="Center"
                                    HeightRequest="25"
