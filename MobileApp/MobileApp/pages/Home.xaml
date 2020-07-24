@@ -212,7 +212,7 @@
                                    TextColor="White" />
                             <Label x:Name="LblUserName"
                                    FontSize="Small"
-                                   Text="user"
+                                   
                                    TextColor="White" />
                         </StackLayout>
                     </Grid>

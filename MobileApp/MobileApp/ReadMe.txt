@@ -130,4 +130,7 @@ home page eka
 				data dennna puluwan.
 			data template ekata danne.mekedi image url eka ganna one source eke idan eka hinda nikan imageURL deela wadak wenne 
 			naha.eka hinda karanna tinne apiurl ekath ekka denna one.
-				eka hinda popular product eka full image url ekak danawa.
+				eka hinda popular product eka full image url ekak danawa. 
+			me widihata get category eka hadanawa.
+---------------------------------------------------------------------------------------------
+	user name eka ganna one unama karanne preference(username) eken ganna eka.mokada service ekedi eka store karaganna hinda.
