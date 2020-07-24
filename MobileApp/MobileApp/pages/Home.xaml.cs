@@ -66,5 +66,15 @@ namespace MobileApp.pages
             var items=await ApiService.GetTotalCardItems(Preferences.Get("userId", 0));
             LblTotalItems.Text = items.totalItems.ToString();
         }
+
+        private void CvCategories_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var currentSelection=e.CurrentSelection.FirstOrDefault() as Category;
+            if (currentSelection == null) return;
+            ((CollectionView)sender).SelectedItem = null;
+            Navigation.PushModalAsync(new ProductList(currentSelection.id,currentSelection.name));
+           
+            
+        }
     }
 }

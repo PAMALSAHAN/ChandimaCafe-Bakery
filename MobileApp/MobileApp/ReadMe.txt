@@ -139,3 +139,13 @@ home page eka
 		home eke ctor eka eka parai call wenne.eka hinda cart number eka ganna one nam karanna tinne 
 		onappearing eka ganna eka.eka home ekata ena hama welekama run wenawa.ethakota updates wena ewwa okkama wage liyanna one 
 		eke.
+------------------------------------------------------------------------------------------------
+ita passe karanna tinne eka eka category ekata adala products tika penna ganna.category item eka tap karana eka karanna tinne
+mekedi tap ekata wada use karanne selection changed kiyana eka.mokada category eka tinne collection view ekak yatathe hinda.
+	meke ekaparak category item eka click karoth yanawa.aye back wela ekama click karata navigate wenne naha eka hinda 
+	karanna tinne selecteditem eka null karana eka. 
+-------------------------------------------------------------------------------
+	mekedi category eka click karahama eken categoryid ekai category name ekai product list ekata yawanna one.ekata 
+	karanne navigation ekedi currentselection eke id ekai name eki parmeter widihata pass karanawa.product list ekedi e 
+	deka allaganna one.
+		
