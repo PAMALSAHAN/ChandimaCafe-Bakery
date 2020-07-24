@@ -16,11 +16,25 @@ namespace MobileApp.pages
     public partial class Home : ContentPage
     {
         public ObservableCollection<PopularProducts> popularProducts;
+        public ObservableCollection<Category> categoryCollection;
         public Home()
         {
-            popularProducts = new ObservableCollection<PopularProducts>();   
+            popularProducts = new ObservableCollection<PopularProducts>();
+            categoryCollection = new ObservableCollection<Category>();
             InitializeComponent();
             GetPopularProducts();
+            GetCategories();
+        }
+
+        private async void GetCategories()
+        {
+            var categories=await ApiService.GetCategories();
+            foreach (var category in categories)
+            {
+                categoryCollection.Add(category);
+            }
+            CvCategories.ItemsSource = categoryCollection;
+
         }
 
         private async void GetPopularProducts()

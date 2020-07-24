@@ -10,5 +10,7 @@ namespace MobileApp.models
         public int id { get; set; }
         public string name { get; set; }
         public string imageUrl { get; set; }
+
+        public string FullImageUrl => AppSetting.ApiURL + imageUrl;
     }
 }

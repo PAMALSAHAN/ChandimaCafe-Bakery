@@ -23,7 +23,7 @@ namespace MobileApp.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            Forms.SetFlags("CollectionView_Experimental");  //edi by me
+            
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
