@@ -555,3 +555,6 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\De
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxxhdpi\order.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxxhdpi\plus.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxxhdpi\shopping_cart.png
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-hdpi\cafe.jpg
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-mdpi\cafe.jpg
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable\cafe.jpg

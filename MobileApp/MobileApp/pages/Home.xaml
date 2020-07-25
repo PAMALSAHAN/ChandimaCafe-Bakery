@@ -173,15 +173,41 @@
                         </Grid.GestureRecognizers>
                     </Grid>
                 </StackLayout>
-                <Image Margin="0,15,0,0"
+                
+                <Frame Grid.Row="0"
+                       Grid.Column="1"
+                       Grid.RowSpan="3"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       WidthRequest="100"
+                       HeightRequest="100"
+                       Margin="0,10,0,0"
+                       Padding="0"
+                       CornerRadius="20"
+                       BackgroundColor="Black"
+                       IsClippedToBounds="True"
+                       >
+
+                    <Image Margin="0"
+                       Source="cafe.jpg"
+                       Aspect="AspectFill"
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                       />
+                    
+
+                </Frame>
+                
+                <!--<Image Margin="0,15,0,0"
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="CenterAndExpand"
-                       Source="kfc.png"
+                       Source="cafe.jpg"
                        Aspect="AspectFill"
                        Grid.Row="0"
                        Grid.Column="1"
                        Grid.RowSpan="3"
-                       />
+                       
+                       />-->
                 
             </Grid>
             <!--menubar-->
@@ -202,9 +228,22 @@
                             <ColumnDefinition Width="4*" />
                             <ColumnDefinition Width="6*" />
                         </Grid.ColumnDefinitions>
-                        <Image Source="kfc.png"
-                               Margin="5"
+                        <Frame VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               Margin="10,0,-10,0"
+                                HeightRequest="80"
+                               WidthRequest="80"
+                               Padding="0"
+                               CornerRadius="20"
+                               IsClippedToBounds="True">
+                            <Image Source="cafe.jpg"
+                                   Margin="0"
                                VerticalOptions="Center" />
+                            
+                        </Frame>
+                        <!--<Image Source="kfc.png"
+                               Margin="5"
+                               VerticalOptions="Center" />-->
                         <StackLayout Grid.Column="1"
                                      VerticalOptions="Center"
                                      Spacing="0"
