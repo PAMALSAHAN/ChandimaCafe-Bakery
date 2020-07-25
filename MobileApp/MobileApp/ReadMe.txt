@@ -166,4 +166,7 @@ porular products eketh wena wenama detail pennanna one
 shopping cart eka tap kalahama card list ekata enna one.
 ----------------------------------------------------------------------
 	cart list eke proceed button eka click krahama order eka place karanna tinne.
-		
+-------------------------------------------------------------------------------------------------
+ita passe karanna tinne my orders pennana eka. eke history eka wage pennanna tinne.
+	emkedi my order page eka click karahama side bar eka close wenna one ekata karanna tinne
+	    onDissapiaring method eka close krana eka ekedi dissapper wena hawa welema eka call wenawa.

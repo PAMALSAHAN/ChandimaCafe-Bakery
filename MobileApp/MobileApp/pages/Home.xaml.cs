@@ -89,5 +89,23 @@ namespace MobileApp.pages
         {
             Navigation.PushModalAsync(new Cart());
         }
+
+        private void TapOrders_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new Orders());
+           
+        }
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            CloseSideBar();
+        }
+
+        private async void CloseSideBar()
+        {
+            await SlMenu.TranslateTo(-2, 0, 800, Easing.Linear);
+            GridOverlay.IsVisible = false;
+
+        }
     }
 }
