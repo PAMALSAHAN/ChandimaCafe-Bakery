@@ -76,5 +76,13 @@ namespace MobileApp.pages
            
             
         }
+
+        private void CvProducts_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var currentSelection = e.CurrentSelection.FirstOrDefault() as PopularProducts;
+            if (currentSelection == null) return;
+            ((CollectionView)sender).SelectedItem = null;
+            Navigation.PushModalAsync(new ProductDetails(currentSelection.id));
+        }
     }
 }

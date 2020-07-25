@@ -153,4 +153,12 @@ mekedi tap ekata wada use karanne selection changed kiyana eka.mokada category e
 		mekedi wenne kisiyam category ekak click karahama ekanamane product list ekak eke product ekak click karahama 
 		product details enna one.
 			mekedi productDetail eke hadanawa GetproductById() meke productid eka pass karama hari.
+--------------------------------------------------------------------------------
+porular products eketh wena wenama detail pennanna one 
+	var currentSelection = e.CurrentSelection.FirstOrDefault() as ProductByCategory;
+            if (currentSelection == null) return ;
+            ((CollectionView)sender).SelectedItem = null;
+            Navigation.PushModalAsync(new ProductDetails(currentSelection.id));
+
+			menna meka thamai copy karala watenna one eka 
 		
