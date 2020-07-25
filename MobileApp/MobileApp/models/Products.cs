@@ -15,5 +15,7 @@ namespace MobileApp.models
         public bool isPopularProduct { get; set; }
         public int categoryId { get; set; }
         public object imageArray { get; set; }
+
+        public string FullImageUrl => AppSetting.ApiURL + imageUrl;
     }
 }

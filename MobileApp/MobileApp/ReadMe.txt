@@ -148,4 +148,9 @@ mekedi tap ekata wada use karanne selection changed kiyana eka.mokada category e
 	mekedi category eka click karahama eken categoryid ekai category name ekai product list ekata yawanna one.ekata 
 	karanne navigation ekedi currentselection eke id ekai name eki parmeter widihata pass karanawa.product list ekedi e 
 	deka allaganna one.
+----------------------------------------------------------------------------
+	product details pennanna tinne
+		mekedi wenne kisiyam category ekak click karahama ekanamane product list ekak eke product ekak click karahama 
+		product details enna one.
+			mekedi productDetail eke hadanawa GetproductById() meke productid eka pass karama hari.
 		

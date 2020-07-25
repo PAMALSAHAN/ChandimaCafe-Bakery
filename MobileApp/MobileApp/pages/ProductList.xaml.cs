@@ -38,5 +38,14 @@ namespace MobileApp.pages
         {
             Navigation.PopModalAsync();
         }
+
+        private void CvProducts_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var currentSelection = e.CurrentSelection.FirstOrDefault() as ProductByCategory;
+            if (currentSelection == null) return ;
+            ((CollectionView)sender).SelectedItem = null;
+            Navigation.PushModalAsync(new ProductDetails(currentSelection.id));
+
+        }
     }
 }
