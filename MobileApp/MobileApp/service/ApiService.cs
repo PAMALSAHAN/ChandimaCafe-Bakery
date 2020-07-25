@@ -121,12 +121,12 @@ namespace MobileApp.service
         }
 
         //userta adala shopping cart eke tina items tika ganna.
-        public async static Task<ShoppingCartItem> GetShoppingCartItems(int userId)
+        public async static Task<List<ShoppingCartItem>> GetShoppingCartItems(int userId)
         {
             var httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
             var response = await httpClient.GetStringAsync(AppSetting.ApiURL + "api/ShoppingCartItems/" + userId);
-            return JsonConvert.DeserializeObject<ShoppingCartItem>(response);
+            return JsonConvert.DeserializeObject<List<ShoppingCartItem>>(response);
         }
 
         public async static Task<TotalCartItem> GetTotalCardItems(int userId)

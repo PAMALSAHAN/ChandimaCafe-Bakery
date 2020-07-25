@@ -77,10 +77,11 @@
                                TextColor="#B00905"
                                FontSize="Medium" />
                         <StackLayout Orientation="Horizontal">
-                            <Label x:Name="LblTotalPrice"
+                            
+                            <Label Text="Rs"
                                    TextColor="#80574D"
                                    FontSize="Medium" />
-                            <Label Text="$"
+                            <Label x:Name="LblTotalPrice"
                                    TextColor="#80574D"
                                    FontSize="Medium" />
                         </StackLayout>
