@@ -1,11 +1,10 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace MobileApp.models
 {
-    class OrderDetail
+    public class OrderDetail
     {
         public int id { get; set; }
         public double price { get; set; }

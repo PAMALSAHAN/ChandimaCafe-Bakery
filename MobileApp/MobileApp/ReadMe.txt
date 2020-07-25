@@ -164,5 +164,6 @@ porular products eketh wena wenama detail pennanna one
 		walin mokada collectionView ekata enne popular product class eken eka hinda e class eka use karanna one.
 ---------------------------------------------------------------------------------------------------
 shopping cart eka tap kalahama card list ekata enna one.
-	
+----------------------------------------------------------------------
+	cart list eke proceed button eka click krahama order eka place karanna tinne.
 		

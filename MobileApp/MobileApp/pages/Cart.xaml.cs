@@ -60,5 +60,10 @@ namespace MobileApp.pages
             }
 
         }
+
+        private void BtnProceed_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new PlaceOrder(Convert.ToDouble(LblTotalPrice.Text)));
+        }
     }
 }
