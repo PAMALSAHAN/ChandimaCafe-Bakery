@@ -160,5 +160,9 @@ porular products eketh wena wenama detail pennanna one
             ((CollectionView)sender).SelectedItem = null;
             Navigation.PushModalAsync(new ProductDetails(currentSelection.id));
 
-			menna meka thamai copy karala watenna one eka 
+			menna meka thamai copy karala watenna one eka  popular porducts ganna kota cast karanna one popular products 
+		walin mokada collectionView ekata enne popular product class eken eka hinda e class eka use karanna one.
+---------------------------------------------------------------------------------------------------
+shopping cart eka tap kalahama card list ekata enna one.
+	
 		

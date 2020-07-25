@@ -84,5 +84,10 @@ namespace MobileApp.pages
             ((CollectionView)sender).SelectedItem = null;
             Navigation.PushModalAsync(new ProductDetails(currentSelection.id));
         }
+
+        private void TapCartIcon_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new Cart());
+        }
     }
 }
