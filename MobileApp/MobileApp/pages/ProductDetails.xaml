@@ -89,7 +89,8 @@
                             Text="Add To Cart"
                             HorizontalOptions="FillAndExpand"
                             BackgroundColor="#CE0B06"
-                            TextColor="White" />
+                            TextColor="White"
+                            Clicked="BtnAddToCart_Clicked"/>
                 </StackLayout>
             </StackLayout>
         </ScrollView>

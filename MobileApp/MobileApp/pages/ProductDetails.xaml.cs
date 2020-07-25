@@ -1,10 +1,11 @@
-﻿using MobileApp.service;
+﻿using MobileApp.models;
+using MobileApp.service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,10 +14,13 @@ namespace MobileApp.pages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProductDetails : ContentPage
     {
+        private readonly int productId;
+
         public ProductDetails(int ProductId)
         {
             InitializeComponent();
             GetProductById(ProductId);
+            productId = ProductId;
         }
 
         private async void GetProductById(int productId)
@@ -54,6 +58,38 @@ namespace MobileApp.pages
         private void TapBack_Tapped(object sender, EventArgs e)
         {
             Navigation.PopModalAsync();
+        }
+
+        private async void BtnAddToCart_Clicked(object sender, EventArgs e)
+        {
+            
+
+            try
+            {
+                var addToCart = new AddToCart();
+                addToCart.Price = LblPrice.Text;
+                addToCart.Qty = LblQty.Text;
+                addToCart.TotalAmount = LblTotalPrice.Text;
+                addToCart.ProductId = productId;
+                addToCart.CustomerId = Preferences.Get("userId", 0);
+                var response = await ApiService.AddItemsInCart(addToCart);
+                if (response)
+                {
+                    await DisplayAlert("Done", "Item added to the Cart", "Alright");
+                }
+                else
+                {
+                    await DisplayAlert("Oops", "Something gone Wrong", "Cancel");
+                }
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("warning", ex.Message.ToString(), "Cancel");
+            }
+
+            await Navigation.PopModalAsync();
+
         }
     }
 }
