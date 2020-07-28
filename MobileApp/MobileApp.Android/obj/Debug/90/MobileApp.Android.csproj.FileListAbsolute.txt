@@ -488,7 +488,6 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\De
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable\cart.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable\close.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable\contact.png
-F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable\kfc.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable\logout.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable\menu.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable\minus.png
@@ -500,7 +499,6 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\De
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-hdpi\cart.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-hdpi\close.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-hdpi\contact.png
-F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-hdpi\kfc.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-hdpi\logout.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-hdpi\menu.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-hdpi\minus.png
@@ -512,7 +510,6 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\De
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-mdpi\cart.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-mdpi\close.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-mdpi\contact.png
-F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-mdpi\kfc.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-mdpi\logout.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-mdpi\menu.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-mdpi\minus.png
@@ -524,7 +521,6 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\De
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xhdpi\cart.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xhdpi\close.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xhdpi\contact.png
-F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xhdpi\kfc.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xhdpi\logout.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xhdpi\menu.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xhdpi\minus.png
@@ -536,7 +532,6 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\De
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxhdpi\cart.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxhdpi\close.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxhdpi\contact.png
-F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxhdpi\kfc.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxhdpi\logout.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxhdpi\menu.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxhdpi\minus.png
@@ -548,7 +543,6 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\De
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxxhdpi\cart.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxxhdpi\close.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxxhdpi\contact.png
-F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxxhdpi\kfc.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxxhdpi\logout.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxxhdpi\menu.png
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.Android\obj\Debug\90\res\drawable-xxxhdpi\minus.png

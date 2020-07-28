@@ -39,5 +39,15 @@ namespace MobileApp.pages
             Navigation.PopModalAsync();
 
         }
+
+        private void LvOrders_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            
+            
+            DisplayAlert("try", , "cacel");
+
+            Navigation.PushModalAsync(new OrderDetails());
+
+        }
     }
 }

@@ -28,10 +28,14 @@
                        HorizontalTextAlignment="Center" />
             </Grid>
             <ListView x:Name="LvOrders"
-                      HasUnevenRows="True">
+                      HasUnevenRows="True"
+                      SelectionMode="Single"
+                      ItemSelected="LvOrders_ItemSelected"
+                      
+                      >
                 <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
+                    <DataTemplate >
+                        <ViewCell  >
                             <StackLayout Padding="20">
                                 <StackLayout Orientation="Horizontal">
                                     <StackLayout>

@@ -19,3 +19,4 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\nets
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\Cart.xaml.g.cs
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\PlaceOrder.xaml.g.cs
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\Orders.xaml.g.cs
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\OrderDetails.xaml.g.cs

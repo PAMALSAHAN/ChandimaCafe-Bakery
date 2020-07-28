@@ -15,6 +15,17 @@ namespace MobileApp.pages
         public OrderDetails()
         {
             InitializeComponent();
+            GetOrderDetails();
+        }
+
+        private void GetOrderDetails()
+        {
+            Console.WriteLine("hellow");
+        }
+
+        private void TapBack_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PopModalAsync();
         }
     }
 }
