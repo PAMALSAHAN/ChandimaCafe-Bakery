@@ -26,6 +26,7 @@ namespace MobileApp.pages
         private async void GetOrderItems()
         {
            var orders= await ApiService.GetOrderByUser(Preferences.Get("userId",0));
+            
             foreach (var order in orders)
             {
                 OrdersCollections.Add(order);
@@ -42,11 +43,10 @@ namespace MobileApp.pages
 
         private void LvOrders_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            
-            
-            DisplayAlert("try", , "cacel");
 
-            Navigation.PushModalAsync(new OrderDetails());
+
+            var item=e.SelectedItem as OrderByUser;
+            Navigation.PushModalAsync(new OrderDetails(Convert.ToInt32(item.id)));
 
         }
     }

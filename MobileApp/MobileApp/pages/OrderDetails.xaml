@@ -7,7 +7,6 @@
              x:Class="MobileApp.pages.OrderDetails">
     <ContentPage.Content>
         <StackLayout>
-            <!--navbar-->
             <Grid Margin="20">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*" />
@@ -18,7 +17,7 @@
                        Grid.Column="0"
                        HorizontalOptions="Center">
                     <Image.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="TapBack" Tapped="TapBack_Tapped" />
+                        <TapGestureRecognizer x:Name="TapBack" Tapped="TapBack_Tapped"/>
                     </Image.GestureRecognizers>
                 </Image>
                 <Label Grid.Column="1"
@@ -28,60 +27,64 @@
                        FontAttributes="Bold"
                        HorizontalTextAlignment="Center" />
             </Grid>
-            <!--navbar-->
-            <!--item list-->
-            <ListView x:Name="LvOrdersDetalis"
-                      HasUnevenRows="True">
+            <ListView HasUnevenRows="True"
+                      x:Name="LvOrderDetail"
+                      SelectionMode="None">
                 <ListView.ItemTemplate>
-                    <DataTemplate >
-                        <ViewCell  >
+                    <DataTemplate>
+                        <ViewCell>
                             <StackLayout Padding="20">
-                                <StackLayout Orientation="Horizontal">
-                                    <Label TextColor="Black" 
-                                               />
-                                </StackLayout>
-                                <StackLayout Orientation="Horizontal">
-                                    <Grid>
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="*" />
-                                        </Grid.ColumnDefinitions>
-                                        <StackLayout Grid.Column="1"
-                                                     Orientation="Vertical">
-                                            <Label TextColor="Red"
-                                                   Text="Qty"/>
-                                            <Label TextColor="Red"/>
-                                        </StackLayout>
-                                        <StackLayout Grid.Column="2"
-                                                     Orientation="Vertical">
-                                            <Label TextColor="Red"
-                                                   Text="Unit Price"/>
-                                            <Label TextColor="Red"/>
-                                        </StackLayout>
-                                        <StackLayout Grid.Column="3"
-                                                     Orientation="Vertical">
-                                            <Label TextColor="Red"
-                                                   Text="Sub total"/>
-                                            <Label TextColor="Red"/>
-                                        </StackLayout>
-                                    </Grid>
-                                    <StackLayout Orientation="Horizontal"
-                                                 HorizontalOptions="EndAndExpand"
-                                                 >
-                                        <Label TextColor="Red"
-                                               Text="Total Amount"/>
-                                        <Label TextColor="Black"/>
+                                <Label TextColor="Black"
+                                       FontSize="Medium"
+                                       Text="{Binding product.name}" />
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="3.3*" />
+                                        <ColumnDefinition Width="3.3*" />
+                                        <ColumnDefinition Width="3.4*" />
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0">
+                                        <Label Text="Qty"
+                                               TextColor="#CE0B06"
+                                               HorizontalOptions="Center" />
+                                        <Label TextColor="#80574D"
+                                               HorizontalOptions="Center"
+                                               Text="{Binding qty}" />
                                     </StackLayout>
-                                </StackLayout>
+                                    <StackLayout Grid.Column="1">
+                                        <Label Text="Unit Price"
+                                               TextColor="#CE0B06"
+                                               HorizontalOptions="Center" />
+                                        <Label TextColor="#80574D"
+                                               HorizontalOptions="Center"
+                                               Text="{Binding price,StringFormat='x {0}'}" />
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="2">
+                                        <Label Text="Sub Total"
+                                               TextColor="#CE0B06"
+                                               HorizontalOptions="Center" />
+                                        <Label TextColor="#80574D"
+                                               HorizontalOptions="Center"
+                                               Text="{Binding totalAmount , StringFormat='{0} $'}"/>
+                                    </StackLayout>
+                                </Grid>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
+                <ListView.Footer>
+                    <StackLayout Margin="20">
+                        <Label HorizontalOptions="End"
+                               Text="Total Price"
+                               FontSize="Medium"
+                               TextColor="#CE0B06" />
+                        <Label HorizontalOptions="End"
+                               x:Name="LblTotalPrice"
+                               FontSize="Medium"
+                               TextColor="#80574D" />
+                    </StackLayout>
+                </ListView.Footer>
             </ListView>
-            <!--item list-->
-            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
