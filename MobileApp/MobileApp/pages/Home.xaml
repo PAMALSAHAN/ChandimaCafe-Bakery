@@ -198,16 +198,7 @@
 
                 </Frame>
                 
-                <!--<Image Margin="0,15,0,0"
-                       HorizontalOptions="CenterAndExpand"
-                       VerticalOptions="CenterAndExpand"
-                       Source="cafe.jpg"
-                       Aspect="AspectFill"
-                       Grid.Row="0"
-                       Grid.Column="1"
-                       Grid.RowSpan="3"
-                       
-                       />-->
+               
                 
             </Grid>
             <!--menubar-->
@@ -241,9 +232,7 @@
                                VerticalOptions="Center" />
                             
                         </Frame>
-                        <!--<Image Source="kfc.png"
-                               Margin="5"
-                               VerticalOptions="Center" />-->
+                        
                         <StackLayout Grid.Column="1"
                                      VerticalOptions="Center"
                                      Spacing="0"
@@ -284,7 +273,7 @@
                                VerticalTextAlignment="Center"
                                FontSize="20" />
                         <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer x:Name="TapCart" />
+                            <TapGestureRecognizer x:Name="TapCart" Tapped="TapCart_Tapped" />
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
                     <StackLayout Spacing="30"
@@ -299,7 +288,7 @@
                                VerticalTextAlignment="Center"
                                FontSize="20" />
                         <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer x:Name="TapContact" />
+                            <TapGestureRecognizer x:Name="TapContact" Tapped="TapContact_Tapped" />
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
                     <StackLayout Spacing="30"

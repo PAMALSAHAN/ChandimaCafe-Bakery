@@ -107,5 +107,15 @@ namespace MobileApp.pages
             GridOverlay.IsVisible = false;
 
         }
+
+        private void TapContact_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new Contact());
+        }
+
+        private void TapCart_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new Cart());
+        }
     }
 }

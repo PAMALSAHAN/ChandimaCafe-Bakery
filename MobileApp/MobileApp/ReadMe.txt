@@ -170,3 +170,31 @@ shopping cart eka tap kalahama card list ekata enna one.
 ita passe karanna tinne my orders pennana eka. eke history eka wage pennanna tinne.
 	emkedi my order page eka click karahama side bar eka close wenna one ekata karanna tinne
 	    onDissapiaring method eka close krana eka ekedi dissapper wena hawa welema eka call wenawa.
+---------------------------------------------------------------------------------------------------------------
+	data pass karanne mathaka thiyaganna data pass karanne navigation ekedi page eke parameters widihata denna puluwan.
+anith eka thmai karanna puluwan.
+	touch krapu ekakk parameters yawanna one nam karanna tinne,
+		listview ekak nama,
+			private void LvOrders_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var item=e.SelectedItem as OrderByUser;
+            Navigation.PushModalAsync(new OrderDetails(Convert.ToInt32(item.id)));
+
+        }
+			mekedi order by user kiyala tinne mapp karana class eka.ekathami observal collection ekedi may karala tinne 
+			e class ekata.
+	
+	collection view ekedi,
+		 private void CvCategories_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var currentSelection=e.CurrentSelection.FirstOrDefault() as Category;
+            if (currentSelection == null) return;
+            ((CollectionView)sender).SelectedItem = null;
+            Navigation.PushModalAsync(new ProductList(currentSelection.id,currentSelection.name));
+           
+            
+        }
+			mekedi null karala tinne aye touch karahama aye select wenna naththam eka wenne naha.
+--------------------------------------------------------------------------------------------------------------------------
+
+

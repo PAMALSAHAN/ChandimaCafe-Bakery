@@ -20,3 +20,4 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\nets
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\Orders.xaml.g.cs
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\OrderDetails.xaml.g.cs
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.csprojAssemblyReference.cache
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\Contact.xaml.g.cs
