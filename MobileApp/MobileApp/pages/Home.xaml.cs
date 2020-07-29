@@ -117,5 +117,12 @@ namespace MobileApp.pages
         {
             Navigation.PushModalAsync(new Cart());
         }
+
+        private void TapLogout_Tapped(object sender, EventArgs e)
+        {
+            Preferences.Set("accessToken", string.Empty);
+            Preferences.Set("tokenExpirationTime", 0);
+            Application.Current.MainPage = new NavigationPage(new SignUp());
+        }
     }
 }

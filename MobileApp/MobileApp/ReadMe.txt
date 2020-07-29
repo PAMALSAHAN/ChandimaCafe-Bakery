@@ -196,5 +196,21 @@ anith eka thmai karanna puluwan.
         }
 			mekedi null karala tinne aye touch karahama aye select wenna naththam eka wenne naha.
 --------------------------------------------------------------------------------------------------------------------------
+error ekak 401 unAuthorized wena eka hama welema.mekata karanna tinne token eka expile unahama aye login function eka 
+	call karala aye token ekak hadaganna eka.
+		prefereces eke expiration time eka save karagannawa.meke expiration time eka format ekak tinawa.
+		ekata karanna tinne 
+			ita passe nuget package ekaka install karanawa eken karanne utc time eka unix time ekata convert karana eka.
+				Epoch.Unix.TimeStamp meka thmai use karana nuget package eka.
+		ita passe karanne current time ekath preference ekak widihata save karagannawa.
+			unix time eke nikan code ekak wage tinne eken time eka ganna puluwan.utc kiyanne api genarally use 
+				karana time eka wage ekak.
+		preference eke current time ekath save karagannawa.
 
+			Preferences.Set("currentTime", UnixTime.GetCurrentTime());
+		itapasse karanne static class ekak hadanawa apiservice ekama checkTokenValidity kiyala.
+			mekedi karanne check karala balanawa expiration time ekata wada wadida kiyala current time eka.ita passe 
+		karanne condition eka dala login ekata call karanawa if eka success nam.
+				ita passe karanna tinne hama endpont ekema me function eka call karana eka.eken check karala token eka
+				change karaganna puluwan.
 

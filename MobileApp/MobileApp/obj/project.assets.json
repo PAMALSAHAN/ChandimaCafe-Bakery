@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Epoch.Unix.TimeStamp/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/UnixTimeStamp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/UnixTimeStamp.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -250,6 +259,18 @@
     }
   },
   "libraries": {
+    "Epoch.Unix.TimeStamp/2.0.0": {
+      "sha512": "80BatcGiOqJuC2V/L3Zu0mvi+N8C2V6ToxZOcF5iVe5VKx/23UBoSCPFIw2ZmlbZbc3t+2ynsa2P0ajO6Smblw==",
+      "type": "package",
+      "path": "epoch.unix.timestamp/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "epoch.unix.timestamp.2.0.0.nupkg.sha512",
+        "epoch.unix.timestamp.nuspec",
+        "lib/netstandard2.0/UnixTimeStamp.dll"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -1145,6 +1166,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Epoch.Unix.TimeStamp >= 2.0.0",
       "Microsoft.Extensions.Logging >= 3.1.6",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
@@ -1196,6 +1218,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Epoch.Unix.TimeStamp": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "Microsoft.Extensions.Logging": {
             "target": "Package",
             "version": "[3.1.6, )"

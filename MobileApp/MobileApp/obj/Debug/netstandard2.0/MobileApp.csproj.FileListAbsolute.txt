@@ -10,7 +10,6 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\nets
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\ref\MobileApp.dll
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.pdb
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\SignUp.xaml.g.cs
-F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\XamlC.stamp
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\Login.xaml.g.cs
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\Home.xaml.g.cs
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\ProductList.xaml.g.cs
@@ -19,5 +18,6 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\nets
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\PlaceOrder.xaml.g.cs
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\Orders.xaml.g.cs
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\OrderDetails.xaml.g.cs
-F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.csprojAssemblyReference.cache
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\pages\Contact.xaml.g.cs
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\XamlC.stamp
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.csprojAssemblyReference.cache

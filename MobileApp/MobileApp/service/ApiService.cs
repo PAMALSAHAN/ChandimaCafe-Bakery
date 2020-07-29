@@ -6,11 +6,12 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using UnixTimeStamp;
 using Xamarin.Essentials;
 
 namespace MobileApp.service
 {
-    class ApiService
+    static class ApiService
     {
         public static async Task<bool> RegisterUser(string name, string email, string password)
         {
@@ -35,6 +36,7 @@ namespace MobileApp.service
 
         public static async Task<bool> Login(string email, string password)
         {
+            
             var login = new Login()
             {
                 Email = email,
@@ -52,12 +54,16 @@ namespace MobileApp.service
             Preferences.Set("accessToken", result.access_token);
             Preferences.Set("userId", result.user_Id);
             Preferences.Set("userName", result.user_name);
+            Preferences.Set("tokenExpirationTime", result.expiration_Time);
+            Preferences.Set("currentTime", UnixTime.GetCurrentTime());
             return true;
 
         }
 
         public static async Task<List<Category>>  GetCategories()
         {
+            
+            await TokenValidator.CheckTokenValidity();
             var httpClient = new HttpClient();
             //authorizede can only access
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
@@ -70,6 +76,7 @@ namespace MobileApp.service
         //product id eka dunnahama product eke details ganna hadala tinne
         public static async Task<Products> GetProductById(int productId)
         {
+            await TokenValidator.CheckTokenValidity();
             var httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Preferences.Get("accessToken", string.Empty));
             var response = await httpClient.GetStringAsync(AppSetting.ApiURL + "api/Products/" + productId);
@@ -183,5 +190,21 @@ namespace MobileApp.service
         }
 
 
+    }
+
+   public static class TokenValidator
+    {
+        public async static Task CheckTokenValidity()
+        {
+            var expirationTime = Preferences.Get("tokenExpirationTime", 0);
+            Preferences.Set("currentTime", UnixTime.GetCurrentTime());
+            var currentTime = Preferences.Get("currentTime", 0);
+            if (expirationTime < currentTime)
+            {
+                var email = Preferences.Get("email", string.Empty);
+                var password = Preferences.Get("password", string.Empty);
+                await ApiService.Login(email,password);
+            }
+        }
     }
 }

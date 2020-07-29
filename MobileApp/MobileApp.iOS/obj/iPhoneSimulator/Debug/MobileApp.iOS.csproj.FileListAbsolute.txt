@@ -69,3 +69,4 @@ F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhone
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\System.Buffers.dll
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\System.Memory.dll
 F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\udemy\.netXamarin\work\kfcmobile\kfcMobile\MobileApp\MobileApp.iOS\bin\iPhoneSimulator\Debug\UnixTimeStamp.dll
