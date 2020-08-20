@@ -3,7 +3,7 @@
 chandima cafe is a backery shop and they want to sell their backery items online via mobile appilcation.
 Rest Full api is created using asp.netCore web api and mobile appilcation is created using Xmarin.forms. 
   <br>
-  form this app users are able to ,
+          form this app users are able to ,
   <br>
     * See Menu and popular products on the main Screen
   <br>
