@@ -1,4 +1,5 @@
-<hi> Software Solution for Chandima Cafe & Backery </h1>
+<h1> Software Solution for Chandima Cafe & Backery </h1>
+
 chandima cafe is a backery shop and they want to sell their backery items online via mobile appilcation.
 Rest Full api is created using asp.netCore web api and mobile appilcation is created using Xmarin.forms. 
   form this app users are able to ,
